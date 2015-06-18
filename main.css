@@ -3,3 +3,16 @@
 	margin: 0 auto;
 	padding: 0.5em;
 }
+
+.intro h1 {
+	text-align: center;
+}
+
+/*.example-code {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	background: #efefef;
+	color: #333;
+	padding: 0.5em;
+	line-height: 1.4;
+}*/
