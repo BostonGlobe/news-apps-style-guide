@@ -15,7 +15,7 @@
 
 		$insert.find('code').text(clean);
 		$insert.insertAfter($el);
-	}
+	};
 
 	var cleanHTML = function(html) {
 		var output = '';
@@ -61,7 +61,7 @@
 		}
 
 		return indent;
-	}
+	};
 
 	init();
 })();
