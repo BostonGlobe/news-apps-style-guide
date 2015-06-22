@@ -8,11 +8,10 @@
 	text-align: center;
 }
 
-/*.example-code {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 0.8em;
-	background: #efefef;
-	color: #333;
-	padding: 0.5em;
-	line-height: 1.4;
-}*/
+.example-code {
+	margin-bottom: 1em;
+}
+
+section h2 {
+	border-top: 1px solid #ccc;
+}
