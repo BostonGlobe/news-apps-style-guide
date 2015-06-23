@@ -15,3 +15,11 @@
 section h2 {
 	border-top: 1px solid #ccc;
 }
+
+span.html-code {
+	color: #905;
+}
+
+span.css-code {
+	color: #07a;
+}

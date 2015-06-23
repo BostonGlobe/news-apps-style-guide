@@ -34,8 +34,51 @@
 
         <section>
             <h2>Buttons</h2>
+            <p>
+                To create a button, add the <span class='css-code'>btn</span> class to any <span class='html-code'>a</span> or <span class='html-code'>button</span> element. This base class must be used alongside an ordinality modifier (and must serve as the base for all other modifiers).
+            </p>
+
+            
+            <h5>Ordinality</h5>
+            <p>
+                To indicate the a button represents a primary action, add the <span class='css-code'>btn--primary</span> class alongside <span class='css-code'>btn</span>. The available classnames are <span class='css-code'>btn--primary</span>, <span class='css-code'>btn--secondary</span>, and <span class='css-code'>btn--accent</span>. Accent buttons provide some extra visual weight over the other two and should be used sparingly.
+            </p>
             <div class='example'>
-                <button class='btn btn--primary'>Click me</button>
+                <button class='btn btn--primary'>Primary Button</button>
+
+                <button class='btn btn--secondary'>Secondary Button</button>
+
+                <button class='btn btn--accent'>Accent Button</button>
+            </div>
+            
+
+            <h5>Disabled</h5>
+            <p>
+                To indicate that a button is disabled, add the <span class='css-code'>btn--disabled</span> class alongside <span class=='css-code'>btn</span> and an ordinality modifier.
+            </p>
+            <div class='example'>
+                <button class='btn btn--primary btn--disabled'>Disabled Button</button>
+            </div>
+           
+
+            <h5>Sizes</h5>
+            <p>
+                To change the size of a button, add the <span class='css-code'>btn--small</span> or <span class='css-code'>btn--large</span> class alongside <span class='css-code'>btn</span> and an ordinality modifier. The default size is regular.
+            </p>
+            <div class='example'>
+                <button class='btn btn--primary btn--small'>Small Button</button>
+                <button class='btn btn--primary'>Regular Button</button>
+                <button class='btn btn--primary btn--large'>Large Button</button>
+            </div>
+            
+
+            <h5>Widths</h5>
+            <p>
+                The width-modifying class changes the button to be relative to the width of its container. To create a button that takes up the full width of its container, add the <span class='css-code'>btn--full</span> class alongside <span class='css-code'>btn</span> and an ordinality modifier. To create a button that takes up half the width of its container, add the <span class='css-code'>btn--half</span> class alongside <span class='css-code'>btn</span> and an ordinality modifier.
+            </p>
+            <div class='example'>
+                <button class='btn btn--primary btn--full'>Full-width Button</button>
+                <button class='btn btn--primary btn--half'>Regular Button</button>
             </div>
         </section>
 
